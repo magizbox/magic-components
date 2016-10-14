@@ -66,7 +66,7 @@ Each component has component-type, so if a crawler crawl this site, I will read 
 
 Correct me if I am wrong? Is this new for you?
 
-This is still in progress and Please don't hesitate to give me your opinion. 
+**This is still in progress and please don't hesitate to give me your opinion.**
 
 ## Components List
 
