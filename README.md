@@ -1,5 +1,21 @@
 # Magic Components
 
+**What is a magic component?**
+
+A magic component is an web component
+
+```
+<div class="component-type" gid="google-spreadsheet-id"></div>
+```
+
+Its auto binding data between web and google spreadsheet.
+
+![](http://i.imgur.com/72DEC8O.png)
+
+The idea behind magic component is opendata
+
+## Components List
+
 * [Video Component](#video-component)
 * [Book Component](#book-component)
 * [Course Component](#course-component)
