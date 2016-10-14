@@ -2,17 +2,21 @@
 
 **What is a magic component?**
 
-A magic component is an web component
+A magic component is an web component with minimal dom
 
 ```
 <div class="component-type" gid="google-spreadsheet-id"></div>
 ```
 
-Its auto binding data between web and google spreadsheet.
+Its auto binding data between web and google spreadsheet vi *google-spreadsheet-id.
 
 ![](http://i.imgur.com/72DEC8O.png)
 
-The idea behind magic component is opendata
+Then render beautiful UI
+
+![](http://i.imgur.com/X9scMZ1.png)
+
+The idea behind magic component is ["The Next Web" proposed by Tim Berners-Lee](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=en)
 
 ## Components List
 
