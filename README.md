@@ -18,6 +18,56 @@ Then render a beautiful UI
 
 The idea behind magic component is ["The Next Web" proposed by Tim Berners-Lee](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=en)
 
+## Story
+
+Recently, I develop some web components, which is load data from google spreadsheet.
+
+It has some advantages
+
+*Simple and Secure*
+
+With google spreadsheet, It allow me get rid of database and CRUD. I simply edit data via google docs UI and then publish it to the world, such as https://docs.google.com/spreadsheets/d/140x82v0b2qnuuuy2NVvKQTyEZtM5G1zhHYq3OU_LaiU/pubhtml
+
+I write simple script to load data from spreadsheet via docs api
+
+```
+function getJSONFromGoogleSpreadsheet(spreadsheetID, callback){
+  // author: BRother Rain
+  // date  : Sep 2015
+  
+  // get json from Google Spreadsheet
+
+  // dependencies: jquery
+  // dependencies: underscore
+
+  function convertItem(item){
+      var result = {};
+      var keys = _.keys(item);
+      _.each(keys, function(key){
+        if(_.contains(key, "$")){
+           var realKey = key.split("$")[1];
+           result[realKey] = item[key]["$t"];
+        }  
+      });
+    return result;  
+  }
+  var spreadsheetURL = "https://spreadsheets.google.com/feeds/list/" + spreadsheetID + "/od6/public/values?alt=json";    
+  $.getJSON(spreadsheetURL, function(data){ 
+      var items = data.feed.entry;
+      var items = _.map(items, convertItem);
+      callback(items);
+  });
+};
+```
+
+*Sematic & Open*
+
+Each component has component-type, so if a crawler crawl this site, I will read component-type and get data from spreadsheet. I kind of sematic web, right?
+
+Correct me if I am wrong? Is this new for you?
+
+This is still in progress and Please don't hesitate to give me your opinion. 
+
 ## Components List
 
 * [Video Component](#video-component)
