@@ -1,4 +1,4 @@
-# Magic Components
+# Magic Components: Semantic and Beautiful Web UI
 
 **What is a magic component?**
 
