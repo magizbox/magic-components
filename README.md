@@ -20,7 +20,7 @@ The idea behind magic component is ["The Next Web" proposed by Tim Berners-Lee](
 
 ## Story
 
-Recently, I develop some web components, which is load data from google spreadsheet.
+Recently, I developed some web components, which is load data from google spreadsheet.
 
 It has some advantages
 
@@ -32,7 +32,7 @@ I write simple script to load data from spreadsheet via docs api
 
 ```
 function getJSONFromGoogleSpreadsheet(spreadsheetID, callback){
-  // author: BRother Rain
+  // author: Brother Rain
   // date  : Sep 2015
   
   // get json from Google Spreadsheet
@@ -62,9 +62,7 @@ function getJSONFromGoogleSpreadsheet(spreadsheetID, callback){
 
 *Sematic & Open*
 
-Each component has component-type, so if a crawler crawl this site, I will read component-type and get data from spreadsheet. I kind of sematic web, right?
-
-Correct me if I am wrong? Is this new for you?
+Each component has component-type, so if a crawler crawl this site, It will read component-type and get data from spreadsheet. I kind of sematic web, right? Correct me if I am wrong? 
 
 **This is still in progress and please don't hesitate to give me your opinion.**
 
