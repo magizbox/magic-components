@@ -1,6 +1,6 @@
 # Magic Components
 
-* [Video Component][#video-component]
+* [Video Component](#video-component)
 
 ## Showcase
 
