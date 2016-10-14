@@ -8,7 +8,7 @@ A magic component is an web component with minimal dom
 <div class="component-type" gid="google-spreadsheet-id"></div>
 ```
 
-It will load data from google spreadsheet via *google-spreadsheet-id.
+It will load data from google spreadsheet via *google-spreadsheet-id*.
 
 ![](http://i.imgur.com/72DEC8O.png)
 
