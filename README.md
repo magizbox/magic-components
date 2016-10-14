@@ -28,7 +28,7 @@ The idea behind magic component is ["The Next Web" proposed by Tim Berners-Lee](
 
 ## Showcase
 
-### [Video Component](https://github.com/magizbox/magiz-c-video)
+### Video Component Example ([fork me](https://github.com/magizbox/magiz-c-video))
 
 ![](https://camo.githubusercontent.com/ca4dca90c449272a766b7b7720acccce4d465ced/687474703a2f2f692e696d6775722e636f6d2f785744314c78452e706e67)
 
@@ -47,3 +47,4 @@ The idea behind magic component is ["The Next Web" proposed by Tim Berners-Lee](
 ### [Benchmark Component](https://github.com/magizbox/magiz-c-benchmark)
 
 ![](https://camo.githubusercontent.com/6b19e193c994153fd4cf5997c29b57f3f490862c/687474703a2f2f692e696d6775722e636f6d2f6a37496342456c2e706e67)
+)
