@@ -16,7 +16,7 @@ Then render a beautiful UI
 
 ![](http://i.imgur.com/X9scMZ1.png)
 
-The idea behind magic component is ["The Next Web" proposed by Tim Berners-Lee](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=en)
+The idea behind magic component are ["The Next Web" proposed by Tim Berners-Lee](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=en) and [schema.org](http://schema.org/)
 
 ## Story
 
