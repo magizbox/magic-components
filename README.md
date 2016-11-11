@@ -18,6 +18,10 @@ Then render a beautiful UI
 
 The idea behind magic component are ["The Next Web" proposed by Tim Berners-Lee](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=en) and [schema.org](http://schema.org/)
 
+## Architecture
+
+![](https://i.imgur.com/YFtczjy.png)
+
 ## Story
 
 Recently, I developed some web components, which is load data from google spreadsheet.
